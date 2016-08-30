@@ -12,6 +12,8 @@
 		4A0955B31D72C65600C8338B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A0955B11D72C65600C8338B /* Main.storyboard */; };
 		4A0955B51D72C65600C8338B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A0955B41D72C65600C8338B /* Assets.xcassets */; };
 		4A0955B81D72C65600C8338B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A0955B61D72C65600C8338B /* LaunchScreen.storyboard */; };
+		4A0955C01D72CE5F00C8338B /* DWRecorderController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A0955BF1D72CE5F00C8338B /* DWRecorderController.swift */; };
+		4A0955C21D7306DD00C8338B /* NSURL+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A0955C11D7306DD00C8338B /* NSURL+.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		4A0955B41D72C65600C8338B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4A0955B71D72C65600C8338B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4A0955B91D72C65600C8338B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A0955BF1D72CE5F00C8338B /* DWRecorderController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DWRecorderController.swift; sourceTree = "<group>"; };
+		4A0955C11D7306DD00C8338B /* NSURL+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSURL+.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 			children = (
 				4A0955AD1D72C65600C8338B /* AppDelegate.swift */,
 				4A0955AF1D72C65600C8338B /* ViewController.swift */,
+				4A0955BF1D72CE5F00C8338B /* DWRecorderController.swift */,
+				4A0955C11D7306DD00C8338B /* NSURL+.swift */,
 				4A0955B11D72C65600C8338B /* Main.storyboard */,
 				4A0955B41D72C65600C8338B /* Assets.xcassets */,
 				4A0955B61D72C65600C8338B /* LaunchScreen.storyboard */,
@@ -137,6 +143,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				4A0955B01D72C65600C8338B /* ViewController.swift in Sources */,
+				4A0955C01D72CE5F00C8338B /* DWRecorderController.swift in Sources */,
+				4A0955C21D7306DD00C8338B /* NSURL+.swift in Sources */,
 				4A0955AE1D72C65600C8338B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -253,8 +261,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Recorder/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Darwin.Recorder;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mangonob.temp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -264,8 +273,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Recorder/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Darwin.Recorder;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mangonob.temp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -289,6 +299,7 @@
 				4A0955BE1D72C65600C8338B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
